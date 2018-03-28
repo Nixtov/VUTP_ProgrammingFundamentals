@@ -9,27 +9,32 @@ namespace Blank_Receipt
     class Program
 
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
-            PrintHeader();
+            Recepeit();
+        }
+        static void Recepeit()
+        {
+            Header();
+            Body();
+            Footer();
         }
 
-        static void PrintHeader()
-
+        static void Header()
         {
             Console.WriteLine("CASH RECEIPT");
             Console.WriteLine("------------------------------");
         }
-        //static void Body()
-        //{
-        //    Console.WriteLine("Charged to____________________");
-        //    Console.WriteLine("Received by___________________");
-        //}
-        //static void Footer()
-        //{
-        //    Console.WriteLine("------------------------------");
-        //    Console.WriteLine("© SoftUni");
-        //}
+        static void Body()
+        {
+            Console.WriteLine("Charged to____________________");
+            Console.WriteLine("Received by___________________");
+        }
+        static void Footer()
+        {
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("\u00A9 SoftUni");
+        }
     }
 }
 

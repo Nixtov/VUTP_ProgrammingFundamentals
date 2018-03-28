@@ -4,16 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculateTriangleArea
+namespace HelloName
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double @base = double.Parse(Console.ReadLine()); 
-            double height = double.Parse(Console.ReadLine());
-
-           
+            name(); 
+        }
+        static void name()
+        {
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello, {0}!", name);
         }
     }
 }

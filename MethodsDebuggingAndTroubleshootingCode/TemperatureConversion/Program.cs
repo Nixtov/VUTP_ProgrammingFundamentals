@@ -10,6 +10,9 @@ namespace TemperatureConversion
     {
         static void Main(string[] args)
         {
+            double fahrenheit = double.Parse(Console.ReadLine());
+            double celsius = GetFahrenheitToCelsius(fahrenheit);
+            Console.WriteLine("{0:f2}", celsius);
         }
     }
 }
