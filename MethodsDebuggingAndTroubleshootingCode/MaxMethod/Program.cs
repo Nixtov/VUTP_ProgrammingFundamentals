@@ -16,7 +16,6 @@ namespace MaxMethod
             int check1 = GetMax (firstNum, secomdNum);
             int check2 = GetMax(check1, thirdNum);
             Console.WriteLine(check2);
-
         }
         static int GetMax(int a, int b)
         {
