@@ -8,11 +8,11 @@ namespace FibonacciNumbers
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string [] args)
         {
-            Console.WriteLine("Enter a number N for range: ");
+            
             int n = int.Parse(Console.ReadLine());
-            int firstNum = 0;
+            int firstNum = 1;
             int secondNum = 1;
             int thirdNum = 1;
             for (int i = 0; i < n; i++)
@@ -20,10 +20,9 @@ namespace FibonacciNumbers
                 thirdNum = secondNum;
                 secondNum = firstNum + secondNum;
                 firstNum = thirdNum;
-                Console.Write(firstNum + " ");
+               
             }
-           // Console.ReadLine();
-
+            Console.Write(firstNum + " ");
         }
     }
 }
