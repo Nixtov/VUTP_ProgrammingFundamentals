@@ -32,7 +32,7 @@ namespace EnglishNameOfTheLastDigit
                     break;
                 case '6': Console.WriteLine("six");
                     break;
-                case '7': Console.WriteLine("sevet");
+                case '7': Console.WriteLine("seven");
                     break;
                 case '8': Console.WriteLine("eigth");
                     break;

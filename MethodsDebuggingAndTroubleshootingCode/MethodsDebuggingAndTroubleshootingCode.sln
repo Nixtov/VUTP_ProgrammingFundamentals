@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersInReversedOrder", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeProperties", "CubeProperties\CubeProperties.csproj", "{BE32466B-8613-4050-82BA-A64F8AD6FD84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{790F9A4F-7E82-4AD1-903B-81F1401DCC95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BE32466B-8613-4050-82BA-A64F8AD6FD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE32466B-8613-4050-82BA-A64F8AD6FD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE32466B-8613-4050-82BA-A64F8AD6FD84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
