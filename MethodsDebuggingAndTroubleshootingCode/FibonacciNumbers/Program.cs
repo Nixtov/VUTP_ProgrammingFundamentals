@@ -12,6 +12,11 @@ namespace FibonacciNumbers
         {
 
             int n = int.Parse(Console.ReadLine());
+            Fibonacci(n);
+        }
+
+        private static void Fibonacci(int n)
+        {
             int firstNum = 1;
             int secondNum = 1;
             int thirdNum = 1;

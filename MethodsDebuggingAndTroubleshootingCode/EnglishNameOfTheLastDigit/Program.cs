@@ -8,7 +8,7 @@ namespace EnglishNameOfTheLastDigit
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string [] args)
         {
             string num = Console.ReadLine();
             LastDigit(num);
