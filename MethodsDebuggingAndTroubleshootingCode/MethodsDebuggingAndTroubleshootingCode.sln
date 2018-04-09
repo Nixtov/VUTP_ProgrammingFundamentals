@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeProperties", "CubePrope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{790F9A4F-7E82-4AD1-903B-81F1401DCC95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeChecker", "PrimeChecker\PrimeChecker.csproj", "{79FF667A-0698-46FD-8310-C80967362F22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{790F9A4F-7E82-4AD1-903B-81F1401DCC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FF667A-0698-46FD-8310-C80967362F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FF667A-0698-46FD-8310-C80967362F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FF667A-0698-46FD-8310-C80967362F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FF667A-0698-46FD-8310-C80967362F22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

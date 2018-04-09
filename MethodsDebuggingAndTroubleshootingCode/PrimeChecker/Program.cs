@@ -11,18 +11,22 @@ namespace PrimeChecker
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            string isPrime = "Prime";
+            IsPrime(n);
+        }
 
+        private static void IsPrime(int n)
+        {
+            string isPrime = "True";
             if (n < 2)
-                Console.WriteLine("Not Prime");
+                Console.WriteLine("False");
             else
             {
-                for (int i = 2; i < n; i++) // or i<= Math.Sqrt(n)
+                for (int i = 2; i < n; i++)
                 {
                     if (n % i == 0)
                     {
-                        isPrime = "Not Prime";
-                        break;
+                        isPrime = "False";
+                        //break;
                     }
                 }
                 Console.WriteLine(isPrime);
