@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "Fibonac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeChecker", "PrimeChecker\PrimeChecker.csproj", "{79FF667A-0698-46FD-8310-C80967362F22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterPoint", "CenterPoint\CenterPoint.csproj", "{A7813E09-BA9E-4AD5-A95E-A23F42B08CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "LongerLine\LongerLine.csproj", "{A9DFBA89-97CF-4059-9D49-1E271BB589D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{79FF667A-0698-46FD-8310-C80967362F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79FF667A-0698-46FD-8310-C80967362F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79FF667A-0698-46FD-8310-C80967362F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7813E09-BA9E-4AD5-A95E-A23F42B08CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7813E09-BA9E-4AD5-A95E-A23F42B08CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7813E09-BA9E-4AD5-A95E-A23F42B08CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7813E09-BA9E-4AD5-A95E-A23F42B08CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DFBA89-97CF-4059-9D49-1E271BB589D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DFBA89-97CF-4059-9D49-1E271BB589D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DFBA89-97CF-4059-9D49-1E271BB589D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DFBA89-97CF-4059-9D49-1E271BB589D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
