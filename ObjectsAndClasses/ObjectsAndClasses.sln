@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsAndClasses", "Object
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomizeWords", "RandomizeWords\RandomizeWords.csproj", "{FB5A0AF7-824C-4BDB-913D-EB9429A11862}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenPoints", "DistanceBetweenPoints\DistanceBetweenPoints.csproj", "{843F2BCA-CAC9-48A8-8856-371AD0C985A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76C88EB1-5FEE-4B2D-AAF3-7AAA1D94E475}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{FB5A0AF7-824C-4BDB-913D-EB9429A11862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB5A0AF7-824C-4BDB-913D-EB9429A11862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB5A0AF7-824C-4BDB-913D-EB9429A11862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843F2BCA-CAC9-48A8-8856-371AD0C985A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843F2BCA-CAC9-48A8-8856-371AD0C985A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843F2BCA-CAC9-48A8-8856-371AD0C985A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843F2BCA-CAC9-48A8-8856-371AD0C985A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
