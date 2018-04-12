@@ -10,26 +10,26 @@ namespace CubeProperties
     {
         static void Main(string[] args)
         {
-            int side = int.Parse(Console.ReadLine());
-            string n = Console.ReadLine();
+            double a = double.Parse(Console.ReadLine());
+            string shape = Console.ReadLine();
 
-            if (n == "face")
-            {
-              
-            }
-            else if (n == "space")
-            {
-
-            }
-            else if(n == "volume")
-            {
-                
-            }
+            Console.WriteLine("{0:f2}", Calclulate(a, shape));
         }
-       private static void GetCubeFace(int side)
+        static double Calclulate(double a, string shape)
         {
-            return Math.Sqrt( 2* Math.Pow (side, 2))
+            double sum = 0;
+            switch (shape)
+            {
+                case "volume":
+                    sum = Math.Pow(a, 3); break;
+                case "space":
+                    sum = Math.Sqrt(3 * a * a); break;
+                case "area":
+                    sum = 6 * a * a; break;
+                case "face":
+                    sum = Math.Sqrt(2 * a * a); break;
+            }
+            return sum;
         }
-
     }
 }
