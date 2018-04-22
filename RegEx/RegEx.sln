@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchFullName", "MatchFullN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyReplacer", "KeyReplacer\KeyReplacer.csproj", "{ED3BE24B-BA17-4272-978D-2417FD3D5199}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchPhoneNumber", "MatchPhoneNumber\MatchPhoneNumber.csproj", "{4FCA5A74-CB1D-48F5-8661-8A4E7ECDC7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchHexadecimalNumbers", "MatchHexadecimalNumbers\MatchHexadecimalNumbers.csproj", "{C4644864-8E11-441B-A5E1-CF4C3E1BB167}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{ED3BE24B-BA17-4272-978D-2417FD3D5199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED3BE24B-BA17-4272-978D-2417FD3D5199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED3BE24B-BA17-4272-978D-2417FD3D5199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCA5A74-CB1D-48F5-8661-8A4E7ECDC7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCA5A74-CB1D-48F5-8661-8A4E7ECDC7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCA5A74-CB1D-48F5-8661-8A4E7ECDC7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCA5A74-CB1D-48F5-8661-8A4E7ECDC7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4644864-8E11-441B-A5E1-CF4C3E1BB167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4644864-8E11-441B-A5E1-CF4C3E1BB167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4644864-8E11-441B-A5E1-CF4C3E1BB167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4644864-8E11-441B-A5E1-CF4C3E1BB167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
