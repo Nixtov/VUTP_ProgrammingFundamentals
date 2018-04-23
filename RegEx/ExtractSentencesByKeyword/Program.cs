@@ -5,20 +5,21 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ExtractEmails
+namespace ExtractSentencesByKeyword
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string pattern = @"(?<=\s)[a-z0-9]+([-.]\w*)*@[a-z]+([-.]\w*)*(\.[a-z]+)";
+            string matchWord = Console.ReadLine();
             string input = Console.ReadLine();
-            Regex regex = new Regex(pattern);
 
-            MatchCollection matches = regex.Matches(input);
-            foreach (var match in matches)
+            string[] sentences = input.Split('!');
+            foreach (var sentence in sentences)
             {
-                Console.WriteLine(match);
+                Regex regex = new Regex("\\W+" + matchWord + "\\W+");
+
+                if  (regex)
             }
         }
     }
