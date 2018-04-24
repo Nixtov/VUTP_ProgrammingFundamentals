@@ -10,32 +10,37 @@ namespace PhonebookUpgrade
     {
         static void Main(string[] args)
         {
-            var phonebook = new Dictionary<string, string>();//name -> phonenumber
-            string command = Console.ReadLine();
+            SortedDictionary<string, string> phonebook = new SortedDictionary<string, string>();
 
-            while (command != "END")
+            string[] inputDetails = Console.ReadLine().Split();
+
+            while (inputDetails[0] != "END")
             {
-                var argms = command.Split(' ').ToArray();
-
-                switch (argms [0])
+                if (inputDetails.Length == 3) //  add to the dict
                 {
-                    default:
-                    case "A":
-                        phonebook[argms[1]] = argms[2];
-                        break;
-                    case "S":
-                        if (phonebook.ContainsKey(argms[1]))
-                        {
-                            Console.WriteLine($"Contact {argms[1]} does not exist");
-                        }
-                        break;
-                    case "ListAll":
-                        foreach (var contact in collection)
-                        {
-
-                        }
+                    phonebook[inputDetails[1]] = inputDetails[2];
                 }
+                else if (inputDetails.Length == 2) //  find
+                {
+                    if (phonebook.ContainsKey(inputDetails[1]))
+                    {
+                        Console.WriteLine($"{inputDetails[1]} -> {phonebook[inputDetails[1]]}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Contact {inputDetails[1]} does not exist.");
+                    }
+                }
+                else
+                {
+                    foreach (var kvp in phonebook)
+                    {
+                        Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
+                    }
+                }
+                inputDetails = Console.ReadLine().Split();
             }
         }
     }
 }
+

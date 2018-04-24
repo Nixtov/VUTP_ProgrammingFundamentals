@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC94BC4E-A83C-419F-BEBD-501238972832}</ProjectGuid>
+    <ProjectGuid>{ED275D68-13FB-4B47-9E51-02325F25C987}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BookLibrary</RootNamespace>
-    <AssemblyName>BookLibrary</AssemblyName>
+    <RootNamespace>IntersectionOfCircles</RootNamespace>
+    <AssemblyName>IntersectionOfCircles</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

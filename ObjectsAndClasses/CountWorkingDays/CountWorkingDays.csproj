@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC94BC4E-A83C-419F-BEBD-501238972832}</ProjectGuid>
+    <ProjectGuid>{D85679F3-915A-4FC1-987D-64693845D35E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BookLibrary</RootNamespace>
-    <AssemblyName>BookLibrary</AssemblyName>
+    <RootNamespace>CountWorkingDays</RootNamespace>
+    <AssemblyName>CountWorkingDays</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonebookUpgrade", "Phonebo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixEmails", "FixEmails\FixEmails.csproj", "{80E49AAD-1771-4AE5-95D5-787C8565C6CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook", "Phonebook\Phonebook.csproj", "{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{80E49AAD-1771-4AE5-95D5-787C8565C6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E49AAD-1771-4AE5-95D5-787C8565C6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E49AAD-1771-4AE5-95D5-787C8565C6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
