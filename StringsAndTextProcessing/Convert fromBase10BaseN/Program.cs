@@ -10,18 +10,21 @@ namespace Convert_fromBase10BaseN
     {
         static void Main(string[] args)
         {
-            BigInteger[] numbers = Console.ReadLine().Split(' ').Select(BigInteger.Parse).ToArray();
-            BigInteger baseN = numbers[0];
-            BigInteger number = numbers[1];
-            string result = string.Empty;
+            var input = Console.ReadLine().Split().Select(Int64.Parse).ToList();
+
+            Int64 bases = input[0];
+            Int64 number = input[1];
+
+            List<Int64> solution = new List<Int64>();
 
             while (number > 0)
             {
-                BigInteger lastDigit = number % baseN;
-                number = number / baseN;
-                result += lastDigit.ToString();
+                Int64 remainder = number % bases;
+                solution.Add(remainder);
+                number /= bases;
             }
-            Console.WriteLine(string.Join("", result.Reverse()));
+            solution.Reverse();
+            Console.WriteLine(string.Join("", solution));
         }
     }
 }

@@ -10,18 +10,14 @@ namespace MagicExchangeableWords
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine().Split().ToArray();
-            string string1 = input[0];
-            string string2 = input[1];
-            HashSet<char> set = new HashSet<char>();
+            string[] input = Console.ReadLine().Split(' ');
 
-            var set1 = new HashSet<char>();
-            var set2 = new HashSet<char>();
+            List<char> first = input[0].ToCharArray().Distinct().ToList();
+            List<char> second = input[1].ToCharArray().Distinct().ToList();
 
-            foreach (var c in string2)
-            {
-                set2.Add(c);
-            }
+            bool exchengable = first.Count == second.Count;
+
+            Console.WriteLine(exchengable.ToString().ToLower());
         }
     }
 }

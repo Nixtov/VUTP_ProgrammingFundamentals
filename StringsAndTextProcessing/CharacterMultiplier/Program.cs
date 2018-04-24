@@ -10,23 +10,39 @@ namespace CharacterMultiplier
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine().Split().ToArray();
-            string string1 = input1[0];
-            string string2 = input1[1];
+            string[] lineOfWords = Console.ReadLine().Split();
 
-            for (int i = 0; i < string1.Length; i++)
+            char[] firstWord = lineOfWords[0].ToCharArray();
+            char[] secondWord = lineOfWords[1].ToCharArray();
+
+            long sum = 0;
+
+            if (firstWord.Length >= secondWord.Length)
             {
+                for (int cycle1 = 0; cycle1 < secondWord.Length; cycle1++)
+                {
+                    sum += firstWord[cycle1] * secondWord[cycle1];
+                }
 
+                for (int cycle2 = secondWord.Length; cycle2 < firstWord.Length; cycle2++)
+                {
+                    sum += firstWord[cycle2];
+                }
             }
-            if (string1.Length < string2.Length)
+            else
             {
+                for (int cycle1 = 0; cycle1 < firstWord.Length; cycle1++)
+                {
+                    sum += firstWord[cycle1] * secondWord[cycle1];
+                }
 
+                for (int cycle2 = firstWord.Length; cycle2 < secondWord.Length; cycle2++)
+                {
+                    sum += secondWord[cycle2];
+                }
             }
+
+            Console.WriteLine(sum);
         }
-        static int MuliplyChars (char c1, char c2)
-        {
-            return c1 * c2;
-        }
-        static int SumChar(char [], char)
     }
 }
