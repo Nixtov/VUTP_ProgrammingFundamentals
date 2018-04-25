@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C61478A9-92D4-44F5-B464-AC1BA4031654}</ProjectGuid>
+    <ProjectGuid>{14C2C3E7-0FEA-4A54-A1D5-CF31DEF250B0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FactorialTrailingZeroes</RootNamespace>
-    <AssemblyName>FactorialTrailingZeroes</AssemblyName>
+    <RootNamespace>Rainer</RootNamespace>
+    <AssemblyName>Rainer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

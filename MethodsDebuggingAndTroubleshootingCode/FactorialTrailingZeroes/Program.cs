@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,18 +9,37 @@ namespace FactorialTrailingZeroes
 {
     class Program
     {
-        int number = int.Parse(Console.ReadLine());
-        CalculateFactoriel(number);
-    }
-
-    private static void CalculateFactoriel(int number)
-    {
-        BigInteger result = number;
-        for (int i = 1; i < number; i++)
+        static void Main()
         {
-            result = result * i;
+
+            BigInteger n = BigInteger.Parse(Console.ReadLine());
+            BigInteger fact = GetFactorial(n);
+            Console.WriteLine(GetTrailingZeroes(fact));
         }
-        Console.WriteLine(result);
+
+        static BigInteger GetFactorial(BigInteger n)
+        {
+            BigInteger fact = 1;
+
+            do
+            {
+                fact = fact * n;
+                n--;
+            } while (n > 1);
+
+            return fact;
+        }
+
+        static BigInteger GetTrailingZeroes(BigInteger num)
+        {
+            BigInteger timesZero = 0;
+            while (num % 10 == 0)
+            {
+                num = num / 10;
+                timesZero++;
+            }
+            return timesZero;
+        }
     }
 }
 
