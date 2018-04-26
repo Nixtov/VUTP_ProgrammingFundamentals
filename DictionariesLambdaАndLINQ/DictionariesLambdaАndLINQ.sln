@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixEmails", "FixEmails\FixE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook", "Phonebook\Phonebook.csproj", "{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMinerTask", "AMinerTask\AMinerTask.csproj", "{0A546DD9-EAB3-4616-8C86-4FE10BA0FD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLogs", "UserLogs\UserLogs.csproj", "{55B9C6A0-3CC7-4D2A-BD35-EAB7C4E08503}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5BA3C4-4015-48C0-9F8A-1402AA9EC9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A546DD9-EAB3-4616-8C86-4FE10BA0FD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A546DD9-EAB3-4616-8C86-4FE10BA0FD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A546DD9-EAB3-4616-8C86-4FE10BA0FD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A546DD9-EAB3-4616-8C86-4FE10BA0FD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B9C6A0-3CC7-4D2A-BD35-EAB7C4E08503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B9C6A0-3CC7-4D2A-BD35-EAB7C4E08503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B9C6A0-3CC7-4D2A-BD35-EAB7C4E08503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B9C6A0-3CC7-4D2A-BD35-EAB7C4E08503}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
