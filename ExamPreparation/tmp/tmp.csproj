@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC94BC4E-A83C-419F-BEBD-501238972832}</ProjectGuid>
+    <ProjectGuid>{48A0EAAB-0011-4795-8E46-0D85259775BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BookLibrary</RootNamespace>
-    <AssemblyName>BookLibrary</AssemblyName>
+    <RootNamespace>tmp</RootNamespace>
+    <AssemblyName>tmp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
