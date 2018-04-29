@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{14C2C3E7-0FEA-4A54-A1D5-CF31DEF250B0}</ProjectGuid>
+    <ProjectGuid>{22D6DA3F-E024-4C35-BEBF-1FA3C8992CED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rainer</RootNamespace>
-    <AssemblyName>Rainer</AssemblyName>
+    <RootNamespace>TouristDestinations</RootNamespace>
+    <AssemblyName>TouristDestinations</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
