@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmp", "Tmp\Tmp.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfEratosthenes", "SieveOfEratosthenes\SieveOfEratosthenes.csproj", "{F9F280F4-F9F0-4EAD-8B27-10051FF3A0E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyAnArrayOfDoubles", "MultiplyAnArrayOfDoubles\MultiplyAnArrayOfDoubles.csproj", "{8EFCE1D0-A573-4E4C-9933-BE47191A9492}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F9F280F4-F9F0-4EAD-8B27-10051FF3A0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F280F4-F9F0-4EAD-8B27-10051FF3A0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F280F4-F9F0-4EAD-8B27-10051FF3A0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFCE1D0-A573-4E4C-9933-BE47191A9492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFCE1D0-A573-4E4C-9933-BE47191A9492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFCE1D0-A573-4E4C-9933-BE47191A9492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFCE1D0-A573-4E4C-9933-BE47191A9492}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
