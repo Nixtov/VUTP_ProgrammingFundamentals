@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyAnArrayOfDoubles", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMiddleElements", "ExtractMiddleElements\ExtractMiddleElements.csproj", "{1605C1A1-0268-4669-B1BF-8E228DE512F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArrayElements", "SumArrayElements\SumArrayElements.csproj", "{06CCA73A-2D06-48CD-85AF-7F4F585306A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1605C1A1-0268-4669-B1BF-8E228DE512F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1605C1A1-0268-4669-B1BF-8E228DE512F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1605C1A1-0268-4669-B1BF-8E228DE512F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CCA73A-2D06-48CD-85AF-7F4F585306A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CCA73A-2D06-48CD-85AF-7F4F585306A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CCA73A-2D06-48CD-85AF-7F4F585306A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CCA73A-2D06-48CD-85AF-7F4F585306A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
