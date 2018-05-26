@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Tmp
 {
@@ -10,14 +11,26 @@ namespace Tmp
     {
         static void Main(string[] args)
         {
-            double page = double.Parse(Console.ReadLine());  
-            double cover = double.Parse(Console.ReadLine());  
-            int discount = int.Parse(Console.ReadLine());  
-            double design = double.Parse(Console.ReadLine());  
-            int team = int.Parse(Console.ReadLine());
-            double sum = ((page * 899) + (cover * 2))*1.1;
-                //* (1 - (discount) / 100);// design)*(1 - team / 100);
-            Console.WriteLine(sum);
+            try
+            {
+                foreach (string d in Directory.GetDirectories(sDir))
+                {
+                    foreach (string f in Directory.GetFiles(d, "*.xml"))
+                    {
+                        string extension = Path.GetExtension(f);
+                        if (extension != null && (extension.Equals(".xml")))
+                        {
+                            fileList.Add(f);
+                        }
+                    }
+                    DirSearch(d);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return fileList;
         }
     }
 }
