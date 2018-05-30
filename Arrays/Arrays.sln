@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArrayElements", "SumArra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddNumbersAtOddPositions", "OddNumbersAtOddPositions\OddNumbersAtOddPositions.csproj", "{8491EDD7-B3D5-409E-8C4A-4131A06E66C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOfOddNumbersInArray", "CountOfOddNumbersInArray\CountOfOddNumbersInArray.csproj", "{61F61228-563E-4BAD-B8E1-C436786CADE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{8491EDD7-B3D5-409E-8C4A-4131A06E66C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8491EDD7-B3D5-409E-8C4A-4131A06E66C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8491EDD7-B3D5-409E-8C4A-4131A06E66C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F61228-563E-4BAD-B8E1-C436786CADE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F61228-563E-4BAD-B8E1-C436786CADE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F61228-563E-4BAD-B8E1-C436786CADE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F61228-563E-4BAD-B8E1-C436786CADE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
