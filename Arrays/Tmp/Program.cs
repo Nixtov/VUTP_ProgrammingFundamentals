@@ -13,24 +13,19 @@ namespace Tmp
         {
             try
             {
-                foreach (string d in Directory.GetDirectories(sDir))
-                {
-                    foreach (string f in Directory.GetFiles(d, "*.xml"))
-                    {
-                        string extension = Path.GetExtension(f);
-                        if (extension != null && (extension.Equals(".xml")))
-                        {
-                            fileList.Add(f);
-                        }
-                    }
-                    DirSearch(d);
-                }
+                var root = @"G:\logs";
+                DirectorySearch(root);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            return fileList;
+            Console.ReadKey();
+        }
+
+        private static void DirectorySearch(string root)
+        {
+            throw new NotImplementedException();
         }
     }
 }
