@@ -11,21 +11,16 @@ namespace Tmp
     {
         static void Main(string[] args)
         {
-            try
+            string[] array1 = Directory.GetFiles(@"C:\users\");
+            string[] array2 = Directory.GetDirectories(@"C:\users\");
+            foreach (string files in array1)
             {
-                var root = @"G:\logs";
-                DirectorySearch(root);
+                Console.WriteLine(files);
             }
-            catch (Exception ex)
+             foreach (string files in array2)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(files);
             }
-            Console.ReadKey();
-        }
-
-        private static void DirectorySearch(string root)
-        {
-            throw new NotImplementedException();
         }
     }
 }
