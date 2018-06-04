@@ -12,14 +12,14 @@ namespace Tmp
         static void Main(string[] args)
         {
             string[] array1 = Directory.GetFiles(@"C:\users\");
-            string[] array2 = Directory.GetDirectories(@"C:\users\");
+           // string[] array2 = Directory.GetDirectories(@"C:\users\");
             foreach (string files in array1)
             {
                 Console.WriteLine(files);
             }
-             foreach (string files in array2)
+            // foreach (string files in array2)
             {
-                Console.WriteLine(files);
+              //  Console.WriteLine(files);
             }
         }
     }
