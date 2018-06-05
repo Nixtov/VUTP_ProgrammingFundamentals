@@ -14,17 +14,8 @@ namespace FileList
             string[] array = Dir(@"C:\");
             foreach (string directories in array)
             {
-                Console.WriteLine(Dir);
-            }
-        }
+                Console.WriteLine(Directory);
 
-        private static string[] Dir(string path)
-        {
-            string[] array = Directory.GetDirectories(path);
-            foreach (string directories in array)
-            {
-                Console.WriteLine(directories);
-                Dir(directories)
             }
         }
     }
